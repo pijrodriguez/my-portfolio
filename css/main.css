@@ -1,0 +1,570 @@
+/* Small devices (portrait phones, 480px and less) */
+@media (max-width: 480px)   {
+    /******NAV BAR********/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+        color: #339DFF;
+        transition: .1s;
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a {
+        font-size:15px;
+    }
+
+    #logoBadge {
+        width: 50px;
+    }
+
+    /******HOME********/
+    #home {
+        height: 50vh;
+    }
+
+    #summary {
+        padding: 10% ;
+    }
+  
+    #top_name {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    #top_desc {
+        font-size: 1.5em;
+    }
+
+    /******ABOUT********/
+    #about_container {
+        margin-top: 0px;
+    }
+
+    .about_text {
+        font-size: 2.5em;
+    }
+    .about_desc {
+        font-size: 1.1em;
+    }
+
+    /******PROJECTS********/
+    #portfolio_header {
+        font-size: 2.5em;
+    }
+
+    .images {
+        width: 300px;
+        display:block;
+    }
+
+    figure {
+        box-shadow: 5px 5px 5px grey;
+        height:240px;
+        border-radius: 5px;
+    }
+    
+    .overlay-texts {
+        font-size:18px;
+    }
+    
+    .overlay-btns {
+        width:150px;
+        font-size: 18px;
+    }
+
+    /******CONTACT********/
+    #contact_div {
+        height:35em;
+    }
+
+    #contact_header {
+        font-size: 2.5em;
+    }
+    
+    #footer-logo {
+        width:60px;  
+    }
+
+    .portfolio-filler {
+        height:6em;
+    }
+    .fillers {
+        height:4em;
+    }
+
+    /******FOLLOW THRU MODAL********/
+    .modal-vid {
+        width:100%;
+        height:255px; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /******CRYPTOCURRENCY PORTFOLIO MODAL********/
+    #crypto_img {
+        width: 250px;
+    }
+}
+
+/* Medium devices (tablets, 481px to 991.98px) */
+@media (min-width: 481px) and (max-width: 991.98px) {
+    /******NAV BAR********/
+    #mainNav .navbar-nav > li.nav-item > a {
+        font-size:18px;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+        color: #339DFF;
+        transition: .1s;
+    }
+
+    #logoBadge {
+        width: 60px;
+    }
+    
+    /******HOME********/
+    #home {
+        height: 100vh;
+    }
+    #summary {
+        padding-top: 18% ;
+    }
+    
+    #top_name {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    #top_desc {
+        font-size: 1.2em;
+    }
+
+    /******ABOUT********/
+    #about_container {
+        margin-top: 0;
+    }
+
+    .about_text {
+        font-size: 3em;
+    }
+    .about_desc {
+        font-size: 1.2em;
+    }
+
+    /******PROJECTS********/
+    #portfolio_header {
+        font-size: 3em;
+    }
+
+    .images {
+        width: 340px;
+        display:block;
+    }
+
+    figure {
+        box-shadow: 5px 5px 5px grey;
+        height:272px;
+        border-radius: 5px;
+    }
+    
+    .overlay-texts {
+        font-size:20px;
+    }
+    
+    .overlay-btns {
+        width:150px;
+        font-size: 20px;
+    }
+
+    /******CONTACT********/
+    #contact_div {
+        height:32em;
+    }
+
+    #contact_header {
+        font-size: 3em;
+    }
+    
+    #footer-logo {
+        width:70px;
+    }
+    .portfolio-filler {
+        height:6em;
+    }
+    .fillers {
+        height:12em;
+    }
+
+    /******FOLLOW THRU MODAL********/
+    .modal-vid {
+        width:100%;
+        height:255px; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /******CRYPTOCURRENCY PORTFOLIO MODAL********/
+    #crypto_img {
+        width: 350px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /******NAV BAR********/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    border-bottom: 4px solid #339DFF;
+    transition: .1s;
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a {
+        font-size:20px;
+    }
+
+    #logoBadge {
+        width: 70px;
+    }
+
+    /******HOME********/
+    #home {
+        height: 100vh;
+    }
+    
+    #summary {
+        padding-top: 15% ;
+    }
+    
+    #top_name {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+    #top_desc {
+        font-size: 1.5em;
+    }
+
+    /******ABOUT********/
+    #about_container {
+        margin-top: 100px;
+    }
+
+    .about_text {
+        font-size: 3em;
+    }
+
+    .about_desc {
+        font-size: 1.3em;
+    }
+
+    /******PROJECTS********/
+    #portfolio_header {
+        font-size: 3.5em;
+    }
+
+    .images {
+        width: 340px;
+        display:block;
+    }
+
+    figure {
+        box-shadow: 5px 5px 5px grey;
+        height:272px;
+        border-radius: 5px;
+    }
+    
+    .overlay-texts {
+        font-size:20px;
+    }
+    
+    .overlay-btns {
+        width:150px;
+        font-size: 20px;
+    }
+
+    /******CONTACT********/
+    #contact_div {
+        height:32em;
+    }
+
+    #contact_header {
+        font-size: 3em;
+    }
+    
+    #footer-logo {
+        width:80px;   
+    }
+    .portfolio-filler {
+        height:6em;
+    }
+    .fillers {
+        height:12em;
+    }
+
+    /******FOLLOW THRU MODAL********/
+    .modal-vid {
+        width:560px;
+        height:315px; 
+    }
+
+    /******CRYPTOCURRENCY PORTFOLIO MODAL********/
+    #crypto_img {
+        width: 350px;
+    }
+    
+  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /******NAV BAR********/    
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    border-bottom: 4px solid #339DFF;
+    transition: .1s;
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a {
+        font-size:20px;
+    }
+
+    #logoBadge {
+        width: 80px;
+    }
+
+    /******HOME********/
+    
+    #home {
+        height: 100vh;
+    }
+
+    #summary {
+        padding-top: 12% ;
+    }
+        
+    #top_name {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+    #top_desc {
+        font-size: 1.5em;
+    }
+
+    /******ABOUT********/
+    #about_container {
+        margin-top: 100px;
+    }
+
+    .about_text {
+        font-size: 3em;
+    }
+
+    .about_desc {
+        font-size: 1.3em;
+    }
+
+    /******PROJECT********/
+    #portfolio_header {
+        font-size: 3.5em;
+    }
+
+    .images {
+        width: 340px;
+        display:block;
+    }
+
+    figure {
+        box-shadow: 5px 5px 5px grey;
+        height:272px;
+        border-radius: 5px;
+    }
+
+    .overlay-texts {
+        font-size:20px;
+    }
+    
+    .overlay-btns {
+        width:150px;
+        font-size: 20px;
+    }
+
+    /******CONTACT********/
+    #contact_div {
+        height:32em;
+    }
+
+    #contact_header {
+        font-size: 3em;
+    }
+    
+    #footer-logo {
+        width:80px;
+    }
+
+    .fillers {
+        height:12em;
+    }
+    
+    .portfolio-filler {
+        height:6em;
+    }
+
+    /******FOLLOW THRU MODAL********/
+    .modal-vid {
+        width:560px;
+        height:315px; 
+    }
+
+    /******CRYPTOCURRENCY PORTFOLIO MODAL********/
+    #crypto_img {
+        width: 350px;
+    }
+    
+}
+
+/*Common CSS*/
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    height: auto;
+}
+
+a {
+    font-weight: 600;    
+}
+
+/******NAV BAR********/
+#mainNav {
+    background-color: #ffffff;
+}
+
+
+/******HOME********/
+#home {
+    background-image: url("../pics/website-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/******ABOUT********/
+#about_div, #contact_div {
+    background-color: #339DFF;
+}
+
+.about_text{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about_desc {
+    color: #ffffff;
+}
+
+#resume {
+    border-radius:35px;
+}
+
+/******PROJECTS********/
+#portfolio_header {
+    font-weight:bold;
+}
+
+.img_container {
+    margin-left: 15px;
+    position:relative;
+}
+
+.img_container:hover .overlay{
+    opacity:1;
+}
+
+#img_div {
+    margin-top: 60px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #303A40;
+}
+.overlay-texts {
+    color: white;
+    margin: 2em 1em 1em;
+}
+
+.overlay-btns {
+    height:auto;
+    border-radius:100px;
+    background-color:transparent;
+    border: 2px solid #339DFF;
+    color:white;
+}
+
+.overlay-btns:hover {
+    background-color: #339DFF;
+    cursor:pointer;
+}
+
+
+/******CONTACT********/
+#contact_header {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 78px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color:white;
+    transition: .3s;
+}
+
+.fa:hover {
+    background: white;
+    color: #339DFF;
+    text-decoration: none;
+}
+
+#copyright {
+    color: white;
+    margin:3em;
+    font-family: Georgia, serif;
+}
+
+#footer-logo {
+    margin:2em 0 2em 0;    
+}
+
+/******OTHERS********/
+.fillers {
+    background-color:transparent;
+}
+
+.project-descriptions {
+    padding:2em;
+}
+/******FASTAP MODAL********/
+#fastap-carousel {
+    background-color: #303A40;
+}
+
+/******FOLLOW THRU MODAL********/
+.vid-header{
+    margin:1em;
+}
