@@ -10,6 +10,7 @@ const sv = require("http").createServer(app);
 
 app.use("/pics", express.static("imgs"));
 app.use("/css", express.static("css"));
+app.use("/files", express.static("files"));
 
 app.get("/", function(req, resp){
     resp.sendFile(CLF+"/main.html");

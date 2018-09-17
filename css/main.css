@@ -552,6 +552,10 @@ a {
 }
 
 /******OTHERS********/
+hr {
+    width: 50vw;
+}
+
 .fillers {
     background-color:transparent;
 }
